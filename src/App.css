@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+#heading{
+  text-align: center;
+  color: white;
+  margin: 15px;
+  
+}
+
+#root{
+  background-color: black;
+  height: 100vh;
+}
+
+#allbox{
+  display: flex;
+  justify-content: center;
+}
+
+#box{
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  margin: 15px;
+}
+
+#box:hover{
+  background-color: lightblue;
+  cursor: pointer;
+  color: black;
+}
+
+body{
+  background-color: black;
+}
